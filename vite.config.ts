@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/RAG-Fine-Tuning-Mastery/',
+      base: '/github-RAG-and-Fine-Tuning-Mastery/',
       server: {
         port: 3000,
         host: '0.0.0.0',
